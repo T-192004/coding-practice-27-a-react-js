@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  background-size: cover;
+  height: 90vh;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.home-content {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  flex-wrap: wrap;
+  font-family: 'Roboto';
+}
+.content-title {
+  color: #475569;
+  font-size: 40px;
+  font-weight: bold;
+}
+.content {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 400;
+}
+.btn {
+  background-color: #0967d2;
+  padding: 10px;
+  width: 120px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+}
+.home-img {
+  width: 40%;
+  height: 70%;
+  margin: 10px;
+}

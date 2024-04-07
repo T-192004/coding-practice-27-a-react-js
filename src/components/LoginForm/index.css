@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+.login-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+  height: 90vh;
+}
+.login-form-logo {
+  width: 50%;
+  height: 60%;
+}
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-shadow: 5px 5px 5px 5px #e2e8f0;
+  border-radius: 4px;
+  padding: 20px;
+  width: 18%;
+  height: 40%;
+}
+.logo-img {
+  width: 140px;
+  align-self: center;
+  height: 40px;
+}
+.login-form {
+  margin: 10px 0px 10px 0px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 80%;
+}
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 10px;
+  width: 100%;
+}
+.input-label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.input-box {
+  width: 100%;
+  padding: 8px;
+  background-color: #d7dfe9;
+  margin: 6px 0px 6px 0px;
+  border: none;
+  color: #64748b;
+  border-radius: 4px;
+  outline: none;
+}
+.login-form-submit-btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Roboto';
+  background-color: #0b69ff;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 10px 0px 10px 0px;
+}
+.error-msg{
+   color: #ff0b37;
+   font-size: 12px;
+   font-family: 'Roboto';
+   font-weight:300;
+}
